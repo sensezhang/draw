@@ -1,1 +1,142 @@
-<mxfile host="www.draw.io" modified="2019-12-06T08:37:36.414Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.3.6" etag="XR_FyGzrlgbY1xraNji1" type="github" pages="3"><diagram id="iMMd_DuQWVyJ4p-bax5d">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-06T08:54:56.040Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="HM24hA9rYIbT6Ulhq8fD" version="12.3.7" type="github" pages="1">
+  <diagram id="iMMd_DuQWVyJ4p-bax5d" name="第 1 页">
+    <mxGraphModel dx="1024" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-1" target="c5JDFRdp9T_usmenfUW4-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-1" value="新对象申请" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-5" target="c5JDFRdp9T_usmenfUW4-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-5" target="c5JDFRdp9T_usmenfUW4-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-5" value="Eden是否放得下" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86.5" y="170" width="127" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-11" value="分配对象" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-13" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-14" target="c5JDFRdp9T_usmenfUW4-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-14" value="YongGC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-18" target="c5JDFRdp9T_usmenfUW4-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-18" target="c5JDFRdp9T_usmenfUW4-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-18" value="Eden是否放得下" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-21" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="310" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-27" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-23" target="c5JDFRdp9T_usmenfUW4-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-30" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-23" target="c5JDFRdp9T_usmenfUW4-29">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-23" value="Old是否放得下" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-25" value="超大新对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-26" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-28" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="410" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-33" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-29" target="c5JDFRdp9T_usmenfUW4-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-29" value="FullGC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="524" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-31" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-32" target="c5JDFRdp9T_usmenfUW4-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-39" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-32" target="c5JDFRdp9T_usmenfUW4-38">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-32" value="Old是否放得下" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="514" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-37" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="450" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-38" value="分配对象" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="630" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-40" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="594" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="260" height="500" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-42" value="YongGC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-43" target="c5JDFRdp9T_usmenfUW4-44">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-43" value="Survivor是否放得下" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-52" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-44" target="c5JDFRdp9T_usmenfUW4-51">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-44" value="放置在S0/S1区域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-14" target="c5JDFRdp9T_usmenfUW4-43">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-48" value="旧对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-50" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="250" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-53" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-51" target="c5JDFRdp9T_usmenfUW4-44">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-51" target="c5JDFRdp9T_usmenfUW4-54">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-51" value="对象存活是否&lt;br&gt;超过阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="400" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-54" value="晋升到老年代" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="514" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-56" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="484" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5JDFRdp9T_usmenfUW4-57" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="30" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
