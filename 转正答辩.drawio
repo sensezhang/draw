@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-05T10:52:13.327Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="EfD_cugidMF1SpfyARJI" version="12.3.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-09T07:30:23.600Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="pMzUlZRd8fqPV8RIrYD_" version="12.3.6" type="github" pages="3">
   <diagram name="查询流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1024" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="1" shadow="0">
       <root>
@@ -340,7 +340,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9ZpYsssvBtFKqQijID9G" name="航空发票查验流程">
-    <mxGraphModel dx="1024" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9XyBcXt7Rieing-ZD0jq-0"/>
         <mxCell id="9XyBcXt7Rieing-ZD0jq-1" parent="9XyBcXt7Rieing-ZD0jq-0"/>
@@ -490,6 +490,22 @@
         </mxCell>
         <mxCell id="-AbTVjBHq_8s1QNGTWfm-62" value="保存查验日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="9XyBcXt7Rieing-ZD0jq-1" vertex="1">
           <mxGeometry x="770.1764705882354" y="362" width="94.11764705882352" height="41.73913043478261" as="geometry"/>
+        </mxCell>
+        <mxCell id="-vkg7dCsuX_ZG8ykRtoZ-1" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="9XyBcXt7Rieing-ZD0jq-1" source="-AbTVjBHq_8s1QNGTWfm-21" target="-AbTVjBHq_8s1QNGTWfm-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="570" as="sourcePoint"/>
+            <mxPoint x="90" y="520" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="410" y="396"/>
+              <mxPoint x="410" y="420"/>
+              <mxPoint x="347" y="420"/>
+              <mxPoint x="280" y="420"/>
+              <mxPoint x="280" y="396"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vkg7dCsuX_ZG8ykRtoZ-3" value="&lt;font color=&quot;#ff0000&quot;&gt;错误重试&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="9XyBcXt7Rieing-ZD0jq-1">
+          <mxGeometry x="317" y="406" width="60" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
