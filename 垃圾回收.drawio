@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-06T09:05:16.068Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="JLiDsJD7V97CgK1Mwg8u" version="12.3.7" type="github" pages="1">
-  <diagram id="iMMd_DuQWVyJ4p-bax5d" name="第 1 页">
-    <mxGraphModel dx="1024" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="www.draw.io" modified="2019-12-11T03:01:15.966Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Dg866QWijljvOz2FQAzq" version="12.3.7" type="github" pages="2">
+  <diagram id="iMMd_DuQWVyJ4p-bax5d" name="新对象申请流程">
+    <mxGraphModel dx="1038" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -147,6 +147,14 @@
         <mxCell id="c5JDFRdp9T_usmenfUW4-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c5JDFRdp9T_usmenfUW4-51" target="c5JDFRdp9T_usmenfUW4-54">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="77VN6l9rEk3_PP9_12sd" name="第 2 页">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="BzTWSO8kTVBjcBT0q8G9-0"/>
+        <mxCell id="BzTWSO8kTVBjcBT0q8G9-1" parent="BzTWSO8kTVBjcBT0q8G9-0"/>
       </root>
     </mxGraphModel>
   </diagram>
