@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-13T02:35:52.798Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="b3dGCn1XYJVrT81G3WDc" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-13T02:36:59.739Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="_DbnIvxEWzcefBg858ul" version="12.5.1" type="github">
   <diagram id="Kqv5iFHVJST8G5QI8ddc" name="第 1 页">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,132 +6,132 @@
         <mxCell id="1" parent="0"/>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="170" as="targetPoint"/>
+            <mxPoint x="263.3333333333333" y="256.9230769230769" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-1" value="取数" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="130" y="50" width="80" height="80" as="geometry"/>
+          <mxGeometry x="231.02444444444444" y="170" width="64.61538461538461" height="64.61538461538461" as="geometry"/>
+        </mxCell>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-4" value="&lt;span style=&quot;white-space: normal&quot;&gt;是否全部纳税人&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="256.9230769230769" width="146.66666666666666" height="64.61538461538461" as="geometry"/>
+        </mxCell>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-5" value="根据租户id获取所有纳税人识别号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="345.7692307692308" width="146.66666666666666" height="48.46153846153846" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-4" target="PSvi4i-Di2WQKce9l0Fc-5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-4" value="&lt;span style=&quot;white-space: normal&quot;&gt;是否全部纳税人&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="110" y="170" width="120" height="80" as="geometry"/>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-7" value="根据纳税人识别号获取有权限的组织" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="426.53846153846155" width="146.66666666666666" height="48.46153846153846" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-5" target="PSvi4i-Di2WQKce9l0Fc-7">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-5" value="根据租户id获取所有纳税人识别号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="110" y="280" width="120" height="60" as="geometry"/>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-4" target="PSvi4i-Di2WQKce9l0Fc-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="531.5384615384615" as="sourcePoint"/>
+            <mxPoint x="251.11111111111111" y="491.15384615384613" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="410" y="289.2307692307692"/>
+              <mxPoint x="410" y="450.7692307692308"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-10" value="是否是diwork环境" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="499.2307692307692" width="146.66666666666666" height="64.61538461538461" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-7" target="PSvi4i-Di2WQKce9l0Fc-10">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-7" value="根据纳税人识别号获取有权限的组织" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="110" y="380" width="120" height="60" as="geometry"/>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="344.15384615384613" width="30" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-4" target="PSvi4i-Di2WQKce9l0Fc-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="510" as="sourcePoint"/>
-            <mxPoint x="160" y="460" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="290" y="210"/>
-              <mxPoint x="290" y="410"/>
-            </Array>
-          </mxGeometry>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-13" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="263.3333333333333" y="321.53846153846155" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-14" value="获取有开票点权限的组织集合（开票权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="580" width="146.66666666666666" height="48.46153846153846" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-10" target="PSvi4i-Di2WQKce9l0Fc-14">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-10" target="PSvi4i-Di2WQKce9l0Fc-23">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-10" value="是否是diwork环境" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="110" y="470" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="290" y="278" width="30" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-13" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="170" y="250" width="30" height="20" as="geometry"/>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-16" value="获取有会计主体权限的组织集合（受票权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="660.7692307692307" width="146.66666666666666" height="48.46153846153846" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-14" target="PSvi4i-Di2WQKce9l0Fc-16">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-14" value="获取有开票点权限的组织集合（开票权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="110" y="570" width="120" height="60" as="geometry"/>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-18" value="获取有认证权限的组织集合（认证权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="741.5384615384615" width="146.66666666666666" height="48.46153846153846" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-16" target="PSvi4i-Di2WQKce9l0Fc-18">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-16" value="获取有会计主体权限的组织集合（受票权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="110" y="670" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-18" value="获取有认证权限的组织集合（认证权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="110" y="770" width="120" height="60" as="geometry"/>
-        </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="180" y="550" width="30" height="20" as="geometry"/>
+          <mxGeometry x="275.55555555555554" y="563.8461538461538" width="30" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-23" value="走原来的查询组织的接口获取所有有权限的组织" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="260" y="480" width="120" height="60" as="geometry"/>
+          <mxGeometry x="373.33333333333337" y="507.30769230769226" width="146.66666666666666" height="48.46153846153846" as="geometry"/>
+        </mxCell>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-10" target="PSvi4i-Di2WQKce9l0Fc-23">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="230" y="491" width="30" height="20" as="geometry"/>
+          <mxGeometry x="336.66666666666663" y="516.1923076923076" width="30" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="PSvi4i-Di2WQKce9l0Fc-26" value="查询各个服务取数" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="440" y="630" width="120" height="60" as="geometry"/>
+        <mxCell id="PSvi4i-Di2WQKce9l0Fc-26" value="查询各个服务取数" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="593.3333333333333" y="628.4615384615385" width="146.66666666666666" height="48.46153846153846" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-27" value="" style="endArrow=classic;html=1;fontColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-23" target="PSvi4i-Di2WQKce9l0Fc-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="900" as="sourcePoint"/>
-            <mxPoint x="160" y="850" as="targetPoint"/>
+            <mxPoint x="190" y="846.5384615384615" as="sourcePoint"/>
+            <mxPoint x="251.11111111111111" y="806.1538461538462" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="410" y="510"/>
-              <mxPoint x="410" y="660"/>
+              <mxPoint x="556.6666666666667" y="531.5384615384615"/>
+              <mxPoint x="556.6666666666667" y="652.6923076923076"/>
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-28" value="取有权限的组织的并集" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="260" y="730" width="120" height="60" as="geometry"/>
+          <mxGeometry x="373.33333333333337" y="709.2307692307692" width="146.66666666666666" height="48.46153846153846" as="geometry"/>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-29" value="" style="endArrow=classic;html=1;fontColor=#009900;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-28" target="PSvi4i-Di2WQKce9l0Fc-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="900" as="sourcePoint"/>
-            <mxPoint x="160" y="850" as="targetPoint"/>
+            <mxPoint x="190" y="846.5384615384615" as="sourcePoint"/>
+            <mxPoint x="251.11111111111111" y="806.1538461538462" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="410" y="760"/>
-              <mxPoint x="410" y="660"/>
+              <mxPoint x="556.6666666666667" y="733.4615384615385"/>
+              <mxPoint x="556.6666666666667" y="652.6923076923076"/>
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-30" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-14" target="PSvi4i-Di2WQKce9l0Fc-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="900" as="sourcePoint"/>
-            <mxPoint x="160" y="850" as="targetPoint"/>
+            <mxPoint x="190" y="846.5384615384615" as="sourcePoint"/>
+            <mxPoint x="251.11111111111111" y="806.1538461538462" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="240" y="600"/>
-              <mxPoint x="240" y="760"/>
+              <mxPoint x="348.8888888888889" y="604.2307692307692"/>
+              <mxPoint x="348.8888888888889" y="733.4615384615385"/>
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-31" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-16" target="PSvi4i-Di2WQKce9l0Fc-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="900" as="sourcePoint"/>
-            <mxPoint x="160" y="850" as="targetPoint"/>
+            <mxPoint x="190" y="846.5384615384615" as="sourcePoint"/>
+            <mxPoint x="251.11111111111111" y="806.1538461538462" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="240" y="700"/>
-              <mxPoint x="240" y="760"/>
+              <mxPoint x="348.8888888888889" y="685"/>
+              <mxPoint x="348.8888888888889" y="733.4615384615385"/>
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PSvi4i-Di2WQKce9l0Fc-32" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvi4i-Di2WQKce9l0Fc-18" target="PSvi4i-Di2WQKce9l0Fc-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="900" as="sourcePoint"/>
-            <mxPoint x="160" y="850" as="targetPoint"/>
+            <mxPoint x="190" y="846.5384615384615" as="sourcePoint"/>
+            <mxPoint x="251.11111111111111" y="806.1538461538462" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="240" y="800"/>
-              <mxPoint x="240" y="760"/>
+              <mxPoint x="348.8888888888889" y="765.7692307692308"/>
+              <mxPoint x="348.8888888888889" y="733.4615384615385"/>
             </Array>
           </mxGeometry>
         </mxCell>
