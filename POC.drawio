@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T02:11:38.592Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.1" etag="sEQ6QV00dAghG7pLlfZU" type="github"><diagram id="od-ODvNptXYWHHqYrVLB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-23T03:25:52.582Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="17uH5jpWTJrod5v8UMhT" version="14.1.1" type="github">
+  <diagram id="od-ODvNptXYWHHqYrVLB" name="Page-1">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-7" value="税务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5bLkhuR68SrIyAFpn3G6-7">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-8" value="EPM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5bLkhuR68SrIyAFpn3G6-8">
+          <mxGeometry x="45" y="120" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5bLkhuR68SrIyAFpn3G6-8" source="5bLkhuR68SrIyAFpn3G6-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="163" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="75" y="130" />
+              <mxPoint x="75" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-15" value="查询对应的规则表" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startFill=0;" edge="1" target="5bLkhuR68SrIyAFpn3G6-14" parent="1" source="5bLkhuR68SrIyAFpn3G6-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="298" y="231.03999999999996" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="返回规则数据" id="5bLkhuR68SrIyAFpn3G6-16">
+          <mxCell style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="5bLkhuR68SrIyAFpn3G6-14" target="5bLkhuR68SrIyAFpn3G6-8">
+            <mxGeometry width="160" relative="1" as="geometry">
+              <mxPoint x="330" y="410" as="sourcePoint" />
+              <mxPoint x="260" y="320" as="targetPoint" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-18" value="python函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-20" value="税务规则表" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="80" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5bLkhuR68SrIyAFpn3G6-20">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5bLkhuR68SrIyAFpn3G6-20">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-23" value="规则表" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.2;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="5bLkhuR68SrIyAFpn3G6-22" parent="1" source="5bLkhuR68SrIyAFpn3G6-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-24" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.1;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="5bLkhuR68SrIyAFpn3G6-22" parent="1" target="5bLkhuR68SrIyAFpn3G6-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-25" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="80" width="65" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLkhuR68SrIyAFpn3G6-26" value="税务规则页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="5bLkhuR68SrIyAFpn3G6-25">
+          <mxGeometry x="-25" y="10" width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
